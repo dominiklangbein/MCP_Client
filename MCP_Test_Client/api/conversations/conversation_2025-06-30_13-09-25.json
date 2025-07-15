@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "What is the capital of France?"
+  },
+  {
+    "role": "assistant",
+    "content": "The capital of France is Paris. However, I notice that you didn't ask me to draft an email about this. Would you like me to help you with anything specific related to email or using the Gmail draft tool?"
+  }
+]

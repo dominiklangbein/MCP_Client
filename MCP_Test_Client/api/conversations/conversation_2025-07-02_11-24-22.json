@@ -1,0 +1,33 @@
+[
+  {
+    "role": "user",
+    "content": "create a email draft to Sarah Chen, information of the email address is in the directory, with the content: Hello Gmail!"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll help you create an email draft to Sarah Chen. First, I'll retrieve her email address from the directory.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01Ds5gQ8SQc59bi7GLsNJdDk",
+        "input": {},
+        "name": "get_directory",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01Ds5gQ8SQc59bi7GLsNJdDk",
+        "content": [
+          "type='text' text='Unknown tool: get_directory' annotations=None meta=None"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "role": "user",
+    "content": "write a email draft to dominik.langbein@gmail.com, with the content good work!"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll help you create an email draft to Dominik Langbein using the `write_email_draft` function. I'll add a subject line to make the email more professional.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01LXnufCZ6BcbPJF4cKYqnP8",
+        "input": {
+          "recipient_email": "dominik.langbein@gmail.com",
+          "subject": "Great Job!",
+          "body": "Good work!"
+        },
+        "name": "write_email_draft",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01LXnufCZ6BcbPJF4cKYqnP8",
+        "content": [
+          "type='text' text='Error executing tool write_email_draft: Credentials file not found at .config/ava-agent/credentials.json' annotations=None meta=None"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but it seems there's an issue with the Gmail API credentials. This error suggests that the necessary authentication files are not properly configured in the expected location. \n\nTo resolve this, you would typically need to:\n1. Set up Gmail API credentials\n2. Authenticate the application\n3. Ensure the credentials file is in the correct directory\n\nWould you like me to provide guidance on setting up Gmail API access, or do you prefer to troubleshoot the credential configuration?"
+  }
+]

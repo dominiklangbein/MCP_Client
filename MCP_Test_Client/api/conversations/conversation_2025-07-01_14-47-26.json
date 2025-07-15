@@ -1,0 +1,37 @@
+[
+  {
+    "role": "user",
+    "content": "write a email draft to dominik.langbein@gmail.com, with the content good work!"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll help you write an email draft to Dominik Langbein. I'll use the `write_email_draft` function to create this draft.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01QJgDnv8kEwnjzmMJ3URv3o",
+        "input": {
+          "recipient_email": "dominik.langbein@gmail.com",
+          "subject": "Great Work!",
+          "body": "Good work!"
+        },
+        "name": "write_email_draft",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01QJgDnv8kEwnjzmMJ3URv3o",
+        "content": [
+          "type='text' text='Error executing tool write_email_draft: Credentials file not found at .config/ava-agent/credentials.json' annotations=None meta=None"
+        ]
+      }
+    ]
+  }
+]

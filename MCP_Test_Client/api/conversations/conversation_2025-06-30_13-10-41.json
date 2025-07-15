@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "what mcp servers are available to you"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but I do not have direct access to MCP (Minecraft Protocol) servers. The tools available to me are currently limited to a Gmail email draft creation function. If you're looking to interact with Minecraft servers, I would need additional tools or integrations specifically designed for Minecraft server management to assist you effectively.\n\nThe only function I can currently use is `write_email_draft`, which allows me to create email drafts using the Gmail API. Is there something specific related to email that I can help you with?"
+  }
+]

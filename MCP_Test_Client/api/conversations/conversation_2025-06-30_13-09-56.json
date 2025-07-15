@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Which tool is available to you"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the function definitions provided in the available tools section, I currently have access to one tool:\n\n`write_email_draft`\n\nThis tool allows me to create a draft email using the Gmail API. It requires three parameters:\n1. `recipient_email` (string): The email address of the recipient\n2. `subject` (string): The subject line of the email\n3. `body` (string): The main content/body of the email\n\nThe function will return a dictionary with draft information if successful, or None if an error occurs. It's designed to help create email drafts in Gmail, and requires proper Gmail API credentials and permissions to function.\n\nWould you like me to demonstrate how to use this email draft creation tool?"
+  }
+]

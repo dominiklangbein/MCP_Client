@@ -1,0 +1,37 @@
+[
+  {
+    "role": "user",
+    "content": "send a email draft to dominik.langbein@gmail.com with the content: Hello Gmail!"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll help you create an email draft to Dominik Langbein using the Gmail API. I'll use the `write_email_draft` function to accomplish this.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01GbvccvinUcybWSAen2aRjv",
+        "input": {
+          "recipient_email": "dominik.langbein@gmail.com",
+          "subject": "Hello",
+          "body": "Hello Gmail!"
+        },
+        "name": "write_email_draft",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01GbvccvinUcybWSAen2aRjv",
+        "content": [
+          "type='text' text='{\\n  \"id\": \"r1292101451373408874\",\\n  \"message\": {\\n    \"id\": \"197c615d5d34744d\",\\n    \"threadId\": \"197c615d5d34744d\",\\n    \"labelIds\": [\\n      \"DRAFT\"\\n    ]\\n  }\\n}' annotations=None meta=None"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "role": "user",
+    "content": "can you fetch the email from sarah chen"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "I'll help you retrieve Sarah Chen's contact information by first getting the directory of contacts.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01NEJzpoXDVKt6Gu38WUf86N",
+        "input": {},
+        "name": "get_directory",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01NEJzpoXDVKt6Gu38WUf86N",
+        "content": [
+          "type='text' text='Name, Email, Url, Bio\\nSarah Chen, sarah@innovateai.tech, https://innovateai.tech, \"AI Solutions Architect with expertise in NLP and computer vision applications.\"\\nMarcus Rodriguez, marcus@datapilot.io, https://datapilot.io, \"Founder of DataPilot, specializing in enterprise AI integration and automation.\"\\nElena Popov, elena@quantumcode.dev, https://quantumcode.dev, \"Former Google engineer focused on quantum computing and AI applications.\"\\nJames Wilson, james@aiforge.consulting, https://aiforge.consulting, \"AI strategy consultant helping startups scale their ML operations.\"\\nPriya Patel, priya@mlsolutions.co, https://mlsolutions.co, \"Machine Learning expert specializing in healthcare AI applications.\"\\nDavid Kim, david@nexusai.systems, https://nexusai.systems, \"CEO of Nexus AI Systems, building AI-powered business automation tools.\"\\nLisa Thompson, lisa@cognitivestack.io, https://cognitivestack.io, \"AI researcher turned entrepreneur, focusing on edge computing solutions.\"\\nAhmed Hassan, ahmed@neuralbridge.ai, https://neuralbridge.ai, \"Founder of Neural Bridge, developing AI solutions for financial services.\"\\nMaya Singh, maya@aifusion.tech, https://aifusion.tech, \"Technical lead specializing in computer vision and robotics integration.\"\\nRobert Chen, robert@deeplearn.consulting, https://deeplearn.consulting, \"AI education specialist and technical consultant for Fortune 500 companies.\"' annotations=None meta=None"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "I found Sarah Chen's email address: sarah@innovateai.tech. Would you like me to help you draft an email to her?"
+  }
+]
